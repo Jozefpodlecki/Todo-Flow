@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "motion/react"
 import { AppState, TaskState } from './models';
 import { defaultAppState } from './utils';
 import { simulation } from './simulation';
-import { AlertCircle, CheckCircle2, CheckSquare, Circle, Loader2, PlusCircle, RotateCcw, Wrench, XCircle } from 'lucide-react';
+import { AlertCircle, CheckCircle2, CheckSquare, Loader2, PlusCircle, RotateCcw, Wrench, XCircle } from 'lucide-react';
 
 const getTaskColor = (state: TaskState) => {
 	switch (state) {
